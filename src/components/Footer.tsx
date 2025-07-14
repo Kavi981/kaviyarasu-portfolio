@@ -9,10 +9,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Copyright */}
           <div className="text-center md:text-left">
-            <p className="text-muted-foreground flex items-center gap-1 justify-center md:justify-start">
-              © {currentYear} Kaviyarasu S. Made with
-              <Heart className="w-4 h-4 text-red-500 fill-current" />
-              and passion for technology.
+            <p className="text-muted-foreground text-center md:text-left">
+              © 2025 Kaviyarasu. All Rights are Reserved
             </p>
           </div>
 

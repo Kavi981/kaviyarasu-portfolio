@@ -19,7 +19,7 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link to="/" className="text-xl font-bold text-primary">
-          Kaviyarasu S
+          Kaviyarasu
         </Link>
 
         {/* Desktop Navigation */}
@@ -35,9 +35,15 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <Button variant="glow" size="sm">
-            <Download className="w-4 h-4 mr-2" />
-            Resume
+          <Button variant="glow" size="sm" asChild>
+            <a 
+              href="https://drive.google.com/file/d/12qZrz-GIuzi8weEuv1u7X5ShSYCYaFpP/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              Resume
+            </a>
           </Button>
         </div>
 
@@ -67,9 +73,15 @@ const Header = () => {
                   {item.label}
                 </Link>
               ))}
-              <Button variant="glow" size="sm" className="w-full">
-                <Download className="w-4 h-4 mr-2" />
-                Resume
+              <Button variant="glow" size="sm" className="w-full" asChild>
+                <a 
+                  href="https://drive.google.com/file/d/12qZrz-GIuzi8weEuv1u7X5ShSYCYaFpP/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Resume
+                </a>
               </Button>
             </div>
           </div>
