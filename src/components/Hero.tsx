@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Code2, Mail, Phone } from "lucide-react";
-import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -26,14 +25,6 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Profile Image */}
-          <div className="mb-8">
-            <img
-              src={profileImage}
-              alt="Kaviyarasu S"
-              className="w-40 h-40 rounded-full mx-auto border-4 border-primary/20 shadow-[var(--shadow-glow)] object-cover"
-            />
-          </div>
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-tech-accent bg-clip-text text-transparent">
