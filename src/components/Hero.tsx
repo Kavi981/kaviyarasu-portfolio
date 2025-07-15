@@ -64,7 +64,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com/kaviyarasu"
+              href="https://github.com/Kavi981"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-surface border border-border hover:border-primary hover:bg-surface-hover transition-all duration-300 group"
@@ -72,7 +72,7 @@ const Hero = () => {
               <Github className="w-6 h-6 text-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://linkedin.com/in/kaviyarasu"
+              href="https://linkedin.com/in/kaviyarasu-s-a90587324"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-surface border border-border hover:border-primary hover:bg-surface-hover transition-all duration-300 group"
@@ -80,7 +80,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6 text-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://leetcode.com/kaviyarasu"
+              href="https://leetcode.com/u/kaviyarasu_senthamilan/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-surface border border-border hover:border-primary hover:bg-surface-hover transition-all duration-300 group"

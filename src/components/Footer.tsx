@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/kaviyarasu"
+              href="https://github.com/Kavi981"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-surface-hover transition-colors group"
@@ -26,7 +26,7 @@ const Footer = () => {
               <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://linkedin.com/in/kaviyarasu"
+              href="https://linkedin.com/in/kaviyarasu-s-a90587324"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-surface-hover transition-colors group"
@@ -35,7 +35,7 @@ const Footer = () => {
               <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
             <a
-              href="https://leetcode.com/kaviyarasu"
+              href="https://leetcode.com/u/kaviyarasu_senthamilan/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-surface-hover transition-colors group"

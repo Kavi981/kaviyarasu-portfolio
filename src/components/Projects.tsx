@@ -17,8 +17,8 @@ const Projects = () => {
         "User-friendly Web Interface",
         "Customizable Schemas"
       ],
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/Kavi981/Data-Anonymizer-Synthetic-Data-Generator",
+      liveLink: null
     },
     {
       title: "SiteLens – Smart SEO Analysis Tool",
@@ -32,8 +32,8 @@ const Projects = () => {
         "Meta Tags Optimization",
         "Performance Metrics"
       ],
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/Kavi981/SiteLens",
+      liveLink: "https://seositelens.vercel.app/"
     }
   ];
 
@@ -95,12 +95,14 @@ const Projects = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3 pt-4">
-                    <Button variant="glow" size="sm" asChild>
-                      <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Live Demo
-                      </a>
-                    </Button>
+                    {project.liveLink && (
+                      <Button variant="glow" size="sm" asChild>
+                        <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="w-4 h-4 mr-2" />
+                          Live Demo
+                        </a>
+                      </Button>
+                    )}
                     <Button variant="tech" size="sm" asChild>
                       <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4 mr-2" />
