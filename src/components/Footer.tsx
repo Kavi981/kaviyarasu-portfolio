@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer className="bg-surface border-t border-border">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
           {/* Copyright */}
-          <div className="text-center md:text-left">
-            <p className="text-muted-foreground text-center md:text-left">
+          <div className="text-center">
+            <p className="text-muted-foreground text-center">
               © 2025 Kaviyarasu. All Rights are Reserved
             </p>
           </div>
