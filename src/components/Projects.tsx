@@ -21,7 +21,7 @@ const Projects = () => {
       liveLink: null
     },
     {
-      title: "Nxt Round - Company Specific Interview Preparation Platform",
+      title: "Nxt Round - Company Specific Interview Preparation Platform.",
       description: "Developed Nxt Round, a full-stack web platform aimed at helping freshers and job seekers prepare for company-specific interviews. Serves as a collaborative platform where users can post, search, and discuss interview questions categorized by company and industry. Ensures an intuitive UI, seamless real-time updates, and distinct role-based features for users and admins. Deployed on Vercel and Render.",
       icon: Search,
       technologies: ["React", "TailwindCSS", "Node.js", "Express.js", "MongoDB"],
