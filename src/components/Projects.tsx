@@ -21,19 +21,19 @@ const Projects = () => {
       liveLink: null
     },
     {
-      title: "SiteLens – Smart SEO Analysis Tool",
-      description: "A collaborative full-stack web application that analyzes websites and APIs to provide real-time SEO improvement suggestions using AI. Features intelligent SEO recommendations powered by Gemini API and comprehensive website analysis.",
+      title: "Nxt Round - Company Specific Interview Preparation Platform",
+      description: "Developed Nxt Round, a full-stack web platform aimed at helping freshers and job seekers prepare for company-specific interviews. Serves as a collaborative platform where users can post, search, and discuss interview questions categorized by company and industry. Ensures an intuitive UI, seamless real-time updates, and distinct role-based features for users and admins. Deployed on Vercel and Render.",
       icon: Search,
-      technologies: ["React.js", "Node.js", "Express.js", "Cheerio", "Gemini API", "JavaScript"],
+      technologies: ["React", "TailwindCSS", "Node.js", "Express.js", "MongoDB"],
       features: [
-        "Real-time SEO Analysis",
-        "AI-powered Suggestions",
-        "HTML Structure Analysis",
-        "Meta Tags Optimization",
-        "Performance Metrics"
+        "Company-specific Interview Questions",
+        "Collaborative Platform",
+        "Real-time Updates",
+        "Role-based Features",
+        "Intuitive UI/UX"
       ],
-      githubLink: "https://github.com/Kavi981/SiteLens",
-      liveLink: "https://seositelens.vercel.app/"
+      githubLink: "https://github.com/Kavi981/Nxt-Round",
+      liveLink: "https://nxtround.tech/"
     }
   ];
 
